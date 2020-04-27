@@ -873,10 +873,8 @@
         },
         {
           "type": "synonyms",
-          "value": "onion",
-          "synonyms": [
-            "onions"
-          ]
+          "value": "bean",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -921,6 +919,13 @@
         },
         {
           "type": "synonyms",
+          "value": "potato",
+          "synonyms": [
+            "potatos"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "tomato",
           "synonyms": [
             "tomatos"
@@ -928,15 +933,15 @@
         },
         {
           "type": "synonyms",
-          "value": "vegitables",
-          "synonyms": []
+          "value": "onion",
+          "synonyms": [
+            "onions"
+          ]
         },
         {
           "type": "synonyms",
-          "value": "potato",
-          "synonyms": [
-            "potatos"
-          ]
+          "value": "vegitables",
+          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -964,11 +969,6 @@
         {
           "type": "synonyms",
           "value": "green pepper",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "bean",
           "synonyms": []
         },
         {
@@ -1029,7 +1029,7 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "batteries",
+          "value": "Sanitary napkins",
           "synonyms": []
         },
         {
@@ -1039,7 +1039,7 @@
         },
         {
           "type": "synonyms",
-          "value": "Sanitary napkins",
+          "value": "batteries",
           "synonyms": []
         },
         {
@@ -1104,15 +1104,19 @@
         },
         {
           "type": "synonyms",
-          "value": "kilo",
-          "synonyms": []
+          "value": "pound",
+          "synonyms": [
+            "pound",
+            "lbs"
+          ]
         },
         {
           "type": "synonyms",
-          "value": "gallons",
+          "value": "meter",
           "synonyms": [
-            "gallon",
-            "gallons"
+            "mtr",
+            "meter",
+            "meters"
           ]
         },
         {
@@ -1127,6 +1131,14 @@
         },
         {
           "type": "synonyms",
+          "value": "gallons",
+          "synonyms": [
+            "gallon",
+            "gallons"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "packets",
           "synonyms": [
             "pkts",
@@ -1136,20 +1148,8 @@
         },
         {
           "type": "synonyms",
-          "value": "meter",
-          "synonyms": [
-            "mtr",
-            "meter",
-            "meters"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "pound",
-          "synonyms": [
-            "pound",
-            "lbs"
-          ]
+          "value": "kilo",
+          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -1157,6 +1157,50 @@
     {
       "entity": "fruits",
       "values": [
+        {
+          "type": "synonyms",
+          "value": "canned fruits",
+          "synonyms": [
+            "canned fruits"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Blueberry",
+          "synonyms": [
+            "Blueberries"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pomegranate",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "orange",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grape",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peach",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Avocado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mango",
+          "synonyms": []
+        },
         {
           "type": "synonyms",
           "value": "Cherries",
@@ -1172,6 +1216,11 @@
         {
           "type": "synonyms",
           "value": "Dates",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fig",
           "synonyms": []
         },
         {
@@ -1228,55 +1277,6 @@
           "synonyms": [
             "apples"
           ]
-        },
-        {
-          "type": "synonyms",
-          "value": "canned fruits",
-          "synonyms": [
-            "canned fruits"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Fig",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Blueberry",
-          "synonyms": [
-            "Blueberries"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Pomegranate",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "orange",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Grape",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Peach",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Avocado",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Mango",
-          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -1285,17 +1285,17 @@
       "entity": "contact",
       "values": [
         {
-          "type": "patterns",
-          "value": "email",
-          "patterns": [
-            "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
-          ]
-        },
-        {
           "type": "synonyms",
           "value": "phone",
           "synonyms": [
             "(\\d{10})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
           ]
         }
       ],
@@ -1306,8 +1306,11 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "food",
-          "synonyms": []
+          "value": "grocery",
+          "synonyms": [
+            "grocery",
+            "groceries"
+          ]
         },
         {
           "type": "synonyms",
@@ -1319,10 +1322,15 @@
         },
         {
           "type": "synonyms",
-          "value": "grocery",
+          "value": "food",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "essentials",
           "synonyms": [
-            "grocery",
-            "groceries"
+            "essential",
+            "essentials"
           ]
         },
         {
@@ -1340,14 +1348,6 @@
             "vegitable",
             "veggie",
             "veggies"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "essentials",
-          "synonyms": [
-            "essential",
-            "essentials"
           ]
         }
       ],
@@ -1622,7 +1622,7 @@
         },
         {
           "type": "synonyms",
-          "value": "Tea powder",
+          "value": "buttermilk",
           "synonyms": []
         },
         {
@@ -1647,7 +1647,18 @@
         },
         {
           "type": "synonyms",
-          "value": "buttermilk",
+          "value": "Tea powder",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "identity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "who",
           "synonyms": []
         }
       ],
@@ -1674,6 +1685,32 @@
     }
   ],
   "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Enter contact of the supplier [Email or Phone] (Enter cancel to quit)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_11_1588001427757",
+      "event_name": "focus",
+      "dialog_node": "handler_13_1588001427757",
+      "previous_sibling": "handler_12_1588001427757"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_11_1588001427757",
+      "context": {
+        "contact": "@contact.literal"
+      },
+      "conditions": "@contact.literal",
+      "event_name": "input",
+      "dialog_node": "handler_12_1588001427757"
+    },
     {
       "type": "event_handler",
       "output": {
@@ -1905,6 +1942,255 @@
       "dialog_node": "handler_77_1587896754937"
     },
     {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I could not find any supplies of @food"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to add a demand for this item?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?>"
+      },
+      "parent": "node_1_1588001427749",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1588001427757"
+      },
+      "conditions": "$webhook_result_1.result.size() == 0",
+      "dialog_node": "response_30_1588001427757",
+      "previous_sibling": "slot_27_1588001427757"
+    },
+    {
+      "type": "standard",
+      "title": "#No_option_selected",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fine, Thanks."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?> <? context.remove('location') ?>"
+      },
+      "parent": "node_1_1588001427749",
+      "conditions": "#No",
+      "dialog_node": "node_23_1588001427757",
+      "previous_sibling": "node_2_1588001427757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Found the supplies for @food from  <br> <b>Supplier 1</b> <br> Contact: <? $webhook_result_1.result[0].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[0].quantity?> <? $webhook_result_1.result[0].description?> <br> b) Location: <? $webhook_result_1.result[0].location?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('name') ?> <? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?>"
+      },
+      "parent": "node_1_1588001427749",
+      "conditions": "$webhook_result_1.result.size() == 1",
+      "dialog_node": "response_31_1588001427757",
+      "previous_sibling": "response_30_1588001427757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I could not find any supplies of @food"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to create demand for this item?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ],
+        "deleted_variable": "<? context.remove('name') ?> <? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?> <? context.remove('webhook_result_1') ?>"
+      },
+      "parent": "node_1_1588001427749",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1588001427757"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_34_1588001427757",
+      "previous_sibling": "response_33_1588001427757"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1588001427749",
+      "variable": "$location",
+      "dialog_node": "slot_27_1588001427757",
+      "previous_sibling": "slot_24_1588001427757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Found the supplies for @food from  <br> <b>Supplier 1 </b><br> Contact: <? $webhook_result_1.result[0].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[0].quantity?> <? $webhook_result_1.result[0].description?> <br> b) Location: <? $webhook_result_1.result[0].location?> <br> <br> <b>Supplier 2</b> <br> Contact: <? $webhook_result_1.result[1].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[1].quantity?> <? $webhook_result_1.result[1].description?> <br> b) Location: <? $webhook_result_1.result[1].location?>"
+          ],
+          "selection_policy": "sequential"
+        },
+        "deleted_variable": "<? context.remove('name') ?> <? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?>"
+      },
+      "parent": "node_1_1588001427749",
+      "conditions": "$webhook_result_1.result.size() == 2",
+      "dialog_node": "response_32_1588001427757",
+      "previous_sibling": "response_31_1588001427757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Found the supplies for @food from  <br> <b>Supplier 1<b> <br> Contact: <? $webhook_result_1.result[0].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[0].quantity?> <? $webhook_result_1.result[0].description?> <br> b) Location: <? $webhook_result_1.result[0].location?> <br><br> <b>Supplier 2</b> <br> Contact: <? $webhook_result_1.result[1].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[1].quantity?> <? $webhook_result_1.result[1].description?> <br> b) Location: <? $webhook_result_1.result[1].location?> <br><br><b>Supplier 3</b> <br> Contact: <? $webhook_result_1.result[2].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[2].quantity?> <? $webhook_result_1.result[2].description?> <br> b) Location: <? $webhook_result_1.result[2].location?>"
+          ],
+          "selection_policy": "sequential"
+        },
+        "deleted_variable": "<? context.remove('name') ?> <? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?>"
+      },
+      "parent": "node_1_1588001427749",
+      "conditions": "$webhook_result_1.result.size() >= 3",
+      "dialog_node": "response_33_1588001427757",
+      "previous_sibling": "response_32_1588001427757"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1588001427749",
+      "variable": "$name",
+      "dialog_node": "slot_24_1588001427757",
+      "previous_sibling": "node_23_1588001427757"
+    },
+    {
+      "type": "frame",
+      "title": "#create_demand",
+      "output": {},
+      "parent": "node_1_1588001427749",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "name": "$name",
+            "type": "food",
+            "contact": "$contact",
+            "category": "Request",
+            "location": "$location",
+            "quantity": "$quantity",
+            "operation": "save",
+            "description": "$description"
+          },
+          "result_variable": "$webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1588001427757"
+      },
+      "conditions": "#Yes",
+      "dialog_node": "node_2_1588001427757"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Enter the location of the item  (Enter cancel to quit)"
+          ],
+          "selection_policy": "sequential"
+        },
+        "deleted_variable": "<? context.remove('contact') ?>"
+      },
+      "parent": "slot_8_1588001427757",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1588001427757",
+      "previous_sibling": "handler_9_1588001427757"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1588001427757",
+      "context": {
+        "location": "@sys-location"
+      },
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_9_1588001427757"
+    },
+    {
       "type": "event_handler",
       "output": {
         "text": {
@@ -1929,6 +2215,25 @@
       "conditions": "@sys-location",
       "event_name": "input",
       "dialog_node": "handler_121_1587897074375"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_27_1588001427757",
+      "event_name": "focus",
+      "dialog_node": "handler_29_1588001427757",
+      "previous_sibling": "handler_28_1588001427757"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_27_1588001427757",
+      "context": {
+        "location": "@sys-location"
+      },
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_28_1588001427757"
     },
     {
       "type": "event_handler",
@@ -2530,41 +2835,22 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "Would you like to add a demand for this item?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ],
         "deleted_variable": "<? context.remove('webhook_result_1') ?>"
       },
       "parent": "node_1_1587564465397",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_10_1587894812214"
-      },
       "conditions": "$webhook_result_1.result.size() == 0",
       "dialog_node": "response_8_1587564465402",
       "previous_sibling": "slot_6_1587741600091"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1587564465397",
+      "variable": "$name",
+      "dialog_node": "slot_2_1587564465402",
+      "previous_sibling": "node_1_1588005380089"
     },
     {
       "type": "response_condition",
@@ -2578,56 +2864,21 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "Would you like to create demand for this item?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ],
         "deleted_variable": "<? context.remove('name') ?> <? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?> <? context.remove('webhook_result_1') ?>"
       },
       "parent": "node_1_1587564465397",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_10_1587894812214"
-      },
       "conditions": "anything_else",
       "dialog_node": "response_12_1587564465402",
       "previous_sibling": "response_11_1587564465402"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_1_1587564465397",
-      "variable": "$name",
-      "dialog_node": "slot_2_1587564465402",
-      "previous_sibling": "node_6_1587895221848"
     },
     {
       "type": "response_condition",
       "output": {
         "text": {
           "values": [
-            "Found the supplies for @food from  <br> <b>Supplier 1 </b><br> Contact: <? $webhook_result_1.result[0].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[0].quantity?> <? $webhook_result_1.result[0].description?> <br> b) Location: <? $webhook_result_1.result[0].location?> <br> <br> <b>Supplier 2</b> <br> Contact: <? $webhook_result_1.result[1].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[1].quantity?> <? $webhook_result_1.result[1].description?> <br> b) Location: <? $webhook_result_1.result[1].location?>"
+            "Found the demands for @food from  <br> <b>Requester 1 </b><br> Contact: <? $webhook_result_1.result[0].contact ?> <br> a) Quantity needed: <? $webhook_result_1.result[0].quantity?> <? $webhook_result_1.result[0].description?> <br> b) Location: <? $webhook_result_1.result[0].location?> <br> <br> <b>Requester 2</b> <br> Contact: <? $webhook_result_1.result[1].contact ?> <br> a) Quantity needed: <? $webhook_result_1.result[1].quantity?> <? $webhook_result_1.result[1].description?> <br> b) Location: <? $webhook_result_1.result[1].location?>"
           ],
           "selection_policy": "sequential"
         },
@@ -2637,28 +2888,6 @@
       "conditions": "$webhook_result_1.result.size() == 2",
       "dialog_node": "response_10_1587564465402",
       "previous_sibling": "response_9_1587564465402"
-    },
-    {
-      "type": "standard",
-      "title": "#No_option_selected",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Fine, Thanks."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ],
-        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?> <? context.remove('location') ?>"
-      },
-      "parent": "node_1_1587564465397",
-      "conditions": "#No",
-      "dialog_node": "node_6_1587895221848",
-      "previous_sibling": "node_10_1587894812214"
     },
     {
       "type": "slot",
@@ -2672,7 +2901,7 @@
       "output": {
         "text": {
           "values": [
-            "Found the supplies for @food from  <br> <b>Supplier 1<b> <br> Contact: <? $webhook_result_1.result[0].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[0].quantity?> <? $webhook_result_1.result[0].description?> <br> b) Location: <? $webhook_result_1.result[0].location?> <br><br> <b>Supplier 2</b> <br> Contact: <? $webhook_result_1.result[1].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[1].quantity?> <? $webhook_result_1.result[1].description?> <br> b) Location: <? $webhook_result_1.result[1].location?> <br><br><b>Supplier 3</b> <br> Contact: <? $webhook_result_1.result[2].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[2].quantity?> <? $webhook_result_1.result[2].description?> <br> b) Location: <? $webhook_result_1.result[2].location?>"
+            "Found the demands for @food from  <br> <b>Requester 1<b> <br> Contact: <? $webhook_result_1.result[0].contact ?> <br> a) Quantity needed: <? $webhook_result_1.result[0].quantity?> <? $webhook_result_1.result[0].description?> <br> b) Location: <? $webhook_result_1.result[0].location?> <br><br> <b>Requester 2</b> <br> Contact: <? $webhook_result_1.result[1].contact ?> <br> a) Quantity needed: <? $webhook_result_1.result[1].quantity?> <? $webhook_result_1.result[1].description?> <br> b) Location: <? $webhook_result_1.result[1].location?> <br><br><b>Requester 3</b> <br> Contact: <? $webhook_result_1.result[2].contact ?> <br> a) Quantity needed: <? $webhook_result_1.result[2].quantity?> <? $webhook_result_1.result[2].description?> <br> b) Location: <? $webhook_result_1.result[2].location?>"
           ],
           "selection_policy": "sequential"
         },
@@ -2690,7 +2919,7 @@
           {
             "values": [
               {
-                "text": "Found the supplies for @food from  <br> <b>Supplier 1</b> <br> Contact: <? $webhook_result_1.result[0].contact ?> <br> a) Quantity available: <? $webhook_result_1.result[0].quantity?> <? $webhook_result_1.result[0].description?> <br> b) Location: <? $webhook_result_1.result[0].location?>"
+                "text": "Found the demands for @food from  <br> <b>Requester  1</b> <br> Contact: <? $webhook_result_1.result[0].contact ?> <br> a) Quantity needed: <? $webhook_result_1.result[0].quantity?> <? $webhook_result_1.result[0].description?> <br> b) Location: <? $webhook_result_1.result[0].location?>"
               }
             ],
             "response_type": "text",
@@ -2705,39 +2934,47 @@
       "previous_sibling": "response_8_1587564465402"
     },
     {
-      "type": "frame",
-      "title": "#create_demand",
-      "output": {},
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
       "parent": "node_1_1587564465397",
-      "actions": [
-        {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "name": "$name",
-            "type": "food",
-            "contact": "$contact",
-            "category": "Request",
-            "location": "$location",
-            "quantity": "$quantity",
-            "operation": "save",
-            "description": "$description"
-          },
-          "result_variable": "$webhook_result_1"
-        }
-      ],
-      "metadata": {
-        "_customization": {
-          "mcr": true
+      "conditions": "$webhook_result_1",
+      "dialog_node": "node_1_1588005380089"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Enter item description or unit  (Enter cancel to quit)"
+          ],
+          "selection_policy": "sequential"
         }
       },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_11_1587894812219"
+      "parent": "slot_17_1588001427757",
+      "event_name": "focus",
+      "dialog_node": "handler_19_1588001427757",
+      "previous_sibling": "handler_18_1588001427757"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1588001427757",
+      "context": {
+        "description": "@item_description"
       },
-      "conditions": "#Yes",
-      "dialog_node": "node_10_1587894812214"
+      "conditions": "@item_description",
+      "event_name": "input",
+      "dialog_node": "handler_18_1588001427757"
     },
     {
       "type": "event_handler",
@@ -2764,32 +3001,6 @@
       "conditions": "@sys-number",
       "event_name": "input",
       "dialog_node": "handler_66_1587896591701"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Enter item description or unit  (Enter cancel to quit)"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_27_1587894812219",
-      "event_name": "focus",
-      "dialog_node": "handler_29_1587894812219",
-      "previous_sibling": "handler_28_1587894812219"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_27_1587894812219",
-      "context": {
-        "description": "@item_description"
-      },
-      "conditions": "@item_description",
-      "event_name": "input",
-      "dialog_node": "handler_28_1587894812219"
     },
     {
       "type": "slot",
@@ -3071,32 +3282,6 @@
     },
     {
       "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Enter the item quantity  (Enter cancel to quit)"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_24_1587894812219",
-      "event_name": "focus",
-      "dialog_node": "handler_26_1587894812219",
-      "previous_sibling": "handler_25_1587894812219"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_24_1587894812219",
-      "context": {
-        "quantity": "@sys-number"
-      },
-      "conditions": "@sys-number",
-      "event_name": "input",
-      "dialog_node": "handler_25_1587894812219"
-    },
-    {
-      "type": "event_handler",
       "output": {},
       "parent": "slot_5_1587741730490",
       "event_name": "focus",
@@ -3115,7 +3300,41 @@
       "dialog_node": "handler_4_1587741730495"
     },
     {
-      "type": "event_handler",
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1588001427757",
+      "variable": "$quantity",
+      "dialog_node": "slot_14_1588001427757",
+      "previous_sibling": "slot_11_1588001427757"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1588001427757",
+      "variable": "$contact",
+      "dialog_node": "slot_11_1588001427757",
+      "previous_sibling": "slot_8_1588001427757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$name <? $webhook_result_1.message ?>. Thank You!"
+          ],
+          "selection_policy": "sequential"
+        },
+        "deleted_variable": "<? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?>"
+      },
+      "parent": "node_2_1588001427757",
+      "context": {},
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_21_1588001427757",
+      "previous_sibling": "slot_17_1588001427757"
+    },
+    {
+      "type": "standard",
+      "title": "#successful_result",
       "output": {
         "generic": [
           {
@@ -3124,23 +3343,83 @@
             "selection_policy": "sequential"
           }
         ],
-        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('contact') ?> "
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
       },
-      "parent": "slot_12_1587894812219",
-      "event_name": "focus",
-      "dialog_node": "handler_14_1587894812219",
-      "previous_sibling": "handler_13_1587894812219"
+      "parent": "node_2_1588001427757",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_4_1588001427757",
+      "previous_sibling": "node_3_1588001427757"
+    },
+    {
+      "type": "standard",
+      "title": "# cancel",
+      "output": {
+        "generic": [],
+        "deleted_variable": "<? context.remove('name') ?> <? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?><? context.remove('webhook_result_1') ?>"
+      },
+      "parent": "node_2_1588001427757",
+      "context": {},
+      "conditions": "#cancel",
+      "dialog_node": "node_3_1588001427757",
+      "previous_sibling": "handler_20_1588001427757"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1588001427757",
+      "variable": "$name",
+      "dialog_node": "slot_5_1588001427757",
+      "previous_sibling": "node_4_1588001427757"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1588001427757",
+      "variable": "$location",
+      "dialog_node": "slot_8_1588001427757",
+      "previous_sibling": "slot_5_1588001427757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, I could not add the item @food. Please try after sometime"
+          ],
+          "selection_policy": "sequential"
+        },
+        "deleted_variable": "<? context.remove('name') ?> <? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?> <? context.remove('$webhook_result_1') ?>"
+      },
+      "parent": "node_2_1588001427757",
+      "conditions": "anything_else",
+      "dialog_node": "response_22_1588001427757",
+      "previous_sibling": "response_21_1588001427757"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1588001427757",
+      "variable": "$description",
+      "dialog_node": "slot_17_1588001427757",
+      "previous_sibling": "slot_14_1588001427757"
     },
     {
       "type": "event_handler",
-      "output": {},
-      "parent": "slot_12_1587894812219",
-      "context": {
-        "name": "@food"
+      "output": {
+        "text": {
+          "values": [
+            "OK, cancelling this operation"
+          ],
+          "selection_policy": "sequential"
+        }
       },
-      "conditions": "@food",
-      "event_name": "input",
-      "dialog_node": "handler_13_1587894812219"
+      "parent": "node_2_1588001427757",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#cancel",
+      "event_name": "generic",
+      "dialog_node": "handler_20_1588001427757"
     },
     {
       "type": "event_handler",
@@ -4428,32 +4707,6 @@
       "output": {
         "text": {
           "values": [
-            "Enter contact of the supplier [Email or Phone] (Enter cancel to quit)"
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_21_1587894812219",
-      "event_name": "focus",
-      "dialog_node": "handler_23_1587894812219",
-      "previous_sibling": "handler_22_1587894812219"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_21_1587894812219",
-      "context": {
-        "contact": "@contact.literal"
-      },
-      "conditions": "@contact.literal",
-      "event_name": "input",
-      "dialog_node": "handler_22_1587894812219"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
             "Enter the location of the item  (Enter cancel to quit)"
           ],
           "selection_policy": "sequential"
@@ -5301,6 +5554,34 @@
     {
       "type": "event_handler",
       "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?>"
+      },
+      "parent": "slot_24_1588001427757",
+      "event_name": "focus",
+      "dialog_node": "handler_26_1588001427757",
+      "previous_sibling": "handler_25_1588001427757"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_24_1588001427757",
+      "context": {
+        "name": "@food"
+      },
+      "conditions": "@food",
+      "event_name": "input",
+      "dialog_node": "handler_25_1588001427757"
+    },
+    {
+      "type": "event_handler",
+      "output": {
         "text": {
           "values": [
             "Enter item description or unit  (Enter cancel to quit)"
@@ -5426,80 +5707,6 @@
     {
       "type": "event_handler",
       "output": {
-        "text": {
-          "values": [
-            "Enter the location of the item  (Enter cancel to quit)"
-          ],
-          "selection_policy": "sequential"
-        },
-        "deleted_variable": "<? context.remove('contact') ?>"
-      },
-      "parent": "slot_18_1587894812219",
-      "event_name": "focus",
-      "dialog_node": "handler_20_1587894812219",
-      "previous_sibling": "handler_19_1587894812219"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_18_1587894812219",
-      "context": {
-        "location": "@sys-location"
-      },
-      "conditions": "@sys-location",
-      "event_name": "input",
-      "dialog_node": "handler_19_1587894812219"
-    },
-    {
-      "type": "standard",
-      "title": "# cancel",
-      "output": {
-        "generic": [],
-        "deleted_variable": "<? context.remove('name') ?> <? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?><? context.remove('webhook_result_1') ?>"
-      },
-      "parent": "node_10_1587894812214",
-      "context": {},
-      "conditions": "#cancel",
-      "dialog_node": "node_11_1587894812219",
-      "previous_sibling": "handler_30_1587894812219"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "$name <? $webhook_result_1.message ?>. Thank You!"
-          ],
-          "selection_policy": "sequential"
-        },
-        "deleted_variable": "<? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?>"
-      },
-      "parent": "node_10_1587894812214",
-      "context": {},
-      "conditions": "$webhook_result_1",
-      "dialog_node": "response_31_1587894812219",
-      "previous_sibling": "slot_27_1587894812219"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_10_1587894812214",
-      "variable": "$description",
-      "dialog_node": "slot_27_1587894812219",
-      "previous_sibling": "slot_24_1587894812219"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_10_1587894812214",
-      "variable": "$location",
-      "dialog_node": "slot_18_1587894812219",
-      "previous_sibling": "slot_12_1587894812219"
-    },
-    {
-      "type": "standard",
-      "title": "#successful_result",
-      "output": {
         "generic": [
           {
             "values": [],
@@ -5507,70 +5714,23 @@
             "selection_policy": "sequential"
           }
         ],
-        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('contact') ?> "
       },
-      "parent": "node_10_1587894812214",
-      "conditions": "$webhook_result_1 && $name",
-      "dialog_node": "node_1_1587992230778",
-      "previous_sibling": "node_11_1587894812219"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_10_1587894812214",
-      "variable": "$quantity",
-      "dialog_node": "slot_24_1587894812219",
-      "previous_sibling": "slot_21_1587894812219"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_10_1587894812214",
-      "variable": "$contact",
-      "dialog_node": "slot_21_1587894812219",
-      "previous_sibling": "slot_18_1587894812219"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "text": {
-          "values": [
-            "Sorry, I could not add the item @food. Please try after sometime"
-          ],
-          "selection_policy": "sequential"
-        },
-        "deleted_variable": "<? context.remove('name') ?> <? context.remove('category') ?> <? context.remove('location') ?> <? context.remove('contact') ?> <? context.remove('quantity') ?> <? context.remove('description') ?> <? context.remove('$webhook_result_1') ?>"
-      },
-      "parent": "node_10_1587894812214",
-      "conditions": "anything_else",
-      "dialog_node": "response_32_1587894812219",
-      "previous_sibling": "response_31_1587894812219"
-    },
-    {
-      "type": "slot",
-      "output": {},
-      "parent": "node_10_1587894812214",
-      "variable": "$name",
-      "dialog_node": "slot_12_1587894812219",
-      "previous_sibling": "node_1_1587992230778"
+      "parent": "slot_5_1588001427757",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1588001427757",
+      "previous_sibling": "handler_6_1588001427757"
     },
     {
       "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "OK, cancelling this operation"
-          ],
-          "selection_policy": "sequential"
-        }
+      "output": {},
+      "parent": "slot_5_1588001427757",
+      "context": {
+        "name": "@food"
       },
-      "parent": "node_10_1587894812214",
-      "next_step": {
-        "behavior": "skip_all_slots"
-      },
-      "conditions": "#cancel",
-      "event_name": "generic",
-      "dialog_node": "handler_30_1587894812219"
+      "conditions": "@food",
+      "event_name": "input",
+      "dialog_node": "handler_6_1588001427757"
     },
     {
       "type": "event_handler",
@@ -6639,6 +6799,32 @@
       "output": {
         "text": {
           "values": [
+            "Enter the item quantity  (Enter cancel to quit)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_14_1588001427757",
+      "event_name": "focus",
+      "dialog_node": "handler_16_1588001427757",
+      "previous_sibling": "handler_15_1588001427757"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_14_1588001427757",
+      "context": {
+        "quantity": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_15_1588001427757"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
             "Enter the item quantity [Only Numbers] (Enter cancel to quit)"
           ],
           "selection_policy": "sequential"
@@ -6805,6 +6991,31 @@
       },
       "conditions": "#supplies_needed && @fruits",
       "dialog_node": "node_1_1587543184041",
+      "previous_sibling": "node_1_1588001427749"
+    },
+    {
+      "type": "frame",
+      "title": "#supplies_needed_food",
+      "output": {},
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "name": "$name",
+            "location": "$location",
+            "operation": "search"
+          },
+          "result_variable": "$webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#supplies_needed && @food",
+      "dialog_node": "node_1_1588001427749",
       "previous_sibling": "node_1_1587564465397"
     },
     {
@@ -7223,7 +7434,7 @@
     },
     {
       "type": "frame",
-      "title": "#supplies_needed_food",
+      "title": "#supplies_needed_food_identity",
       "output": {},
       "actions": [
         {
@@ -7231,6 +7442,7 @@
           "type": "webhook",
           "parameters": {
             "name": "$name",
+            "category": "Request",
             "location": "$location",
             "operation": "search"
           },
@@ -7242,7 +7454,12 @@
           "mcr": true
         }
       },
-      "conditions": "#supplies_needed && @food",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1588005380089"
+      },
+      "conditions": "#supplies_needed && @food && @identity",
       "digress_in": "does_not_return",
       "dialog_node": "node_1_1587564465397",
       "previous_sibling": "node_1_1587889141548"
