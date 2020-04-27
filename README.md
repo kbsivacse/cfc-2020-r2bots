@@ -20,7 +20,9 @@ This mobile application is for the people in need to find nearby supplies for th
 ## Logic flow
 This solution has a chat interface built using IBM Watson Assistant, data storage to hold the status of demands and supplies available, and location services with real-time information to get users the information they need.
 
-Architectural diagram
+<img src="images/architecture-diagram.png"
+     alt="architecture-diagram"
+     style="float: left; margin-right: 10px;" />
 
 IBM Cloud services provide an easy way of implementing the solution using,
 1. Application is developed using React Native for UI, Node.js for API layer with IBM Cloudant No-SQL database at the backend levaraging IBM's statrtup kit for the hackathon
