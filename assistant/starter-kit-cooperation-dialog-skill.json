@@ -1755,11 +1755,21 @@
       "dialog_node": "handler_9_1587551981340"
     },
     {
-      "type": "slot",
-      "output": {},
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
       "parent": "node_74_1587896754931",
-      "variable": "$name",
-      "dialog_node": "slot_76_1587896754937",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_3_1587992888642",
       "previous_sibling": "node_75_1587896754937"
     },
     {
@@ -1769,6 +1779,14 @@
       "variable": "$location",
       "dialog_node": "slot_79_1587896754937",
       "previous_sibling": "slot_76_1587896754937"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_74_1587896754931",
+      "variable": "$name",
+      "dialog_node": "slot_76_1587896754937",
+      "previous_sibling": "node_3_1587992888642"
     },
     {
       "type": "slot",
@@ -2001,12 +2019,30 @@
       "previous_sibling": "slot_129_1587897074375"
     },
     {
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
+      "parent": "node_115_1587897074369",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_6_1587992953333",
+      "previous_sibling": "node_116_1587897074375"
+    },
+    {
       "type": "slot",
       "output": {},
       "parent": "node_115_1587897074369",
       "variable": "$name",
       "dialog_node": "slot_117_1587897074375",
-      "previous_sibling": "node_116_1587897074375"
+      "previous_sibling": "node_6_1587992953333"
     },
     {
       "type": "slot",
@@ -2101,16 +2137,34 @@
       "type": "slot",
       "output": {},
       "parent": "node_95_1587896917232",
-      "variable": "$location",
-      "dialog_node": "slot_100_1587896917237",
-      "previous_sibling": "slot_97_1587896917237"
+      "variable": "$name",
+      "dialog_node": "slot_97_1587896917237",
+      "previous_sibling": "node_4_1587992913987"
     },
     {
       "type": "slot",
       "output": {},
       "parent": "node_95_1587896917232",
-      "variable": "$name",
-      "dialog_node": "slot_97_1587896917237",
+      "variable": "$location",
+      "dialog_node": "slot_100_1587896917237",
+      "previous_sibling": "slot_97_1587896917237"
+    },
+    {
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
+      "parent": "node_95_1587896917232",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_4_1587992913987",
       "previous_sibling": "node_96_1587896917237"
     },
     {
@@ -2317,6 +2371,14 @@
       "dialog_node": "handler_89_1587896754937"
     },
     {
+      "type": "slot",
+      "output": {},
+      "parent": "node_33_1587896288888",
+      "variable": "$name",
+      "dialog_node": "slot_35_1587896288894",
+      "previous_sibling": "node_1_1587992624932"
+    },
+    {
       "type": "response_condition",
       "output": {
         "text": {
@@ -2354,11 +2416,21 @@
       "previous_sibling": "slot_38_1587896288894"
     },
     {
-      "type": "slot",
-      "output": {},
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
       "parent": "node_33_1587896288888",
-      "variable": "$name",
-      "dialog_node": "slot_35_1587896288894",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_1_1587992624932",
       "previous_sibling": "node_34_1587896288894"
     },
     {
@@ -2764,11 +2836,21 @@
       "previous_sibling": "slot_95_1587624329357"
     },
     {
-      "type": "slot",
-      "output": {},
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
       "parent": "node_85_1587624329351",
-      "variable": "$name",
-      "dialog_node": "slot_86_1587624329357",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_12_1587993310121",
       "previous_sibling": "node_5_1587740963842"
     },
     {
@@ -2786,6 +2868,14 @@
       "variable": "$description",
       "dialog_node": "slot_101_1587624329357",
       "previous_sibling": "slot_98_1587624329357"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_85_1587624329351",
+      "variable": "$name",
+      "dialog_node": "slot_86_1587624329357",
+      "previous_sibling": "node_12_1587993310121"
     },
     {
       "type": "response_condition",
@@ -3872,11 +3962,21 @@
       "dialog_node": "handler_96_1587624329357"
     },
     {
-      "type": "slot",
-      "output": {},
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
       "parent": "node_1_1587624131802",
-      "variable": "$name",
-      "dialog_node": "slot_2_1587624131813",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_8_1587993039642",
       "previous_sibling": "node_1_1587740857115"
     },
     {
@@ -3917,6 +4017,14 @@
       "variable": "$contact",
       "dialog_node": "slot_11_1587624131813",
       "previous_sibling": "slot_8_1587624131813"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1587624131802",
+      "variable": "$name",
+      "dialog_node": "slot_2_1587624131813",
+      "previous_sibling": "node_8_1587993039642"
     },
     {
       "type": "slot",
@@ -4450,6 +4558,14 @@
       "dialog_node": "handler_3_1587543184046"
     },
     {
+      "type": "slot",
+      "output": {},
+      "parent": "node_64_1587624295322",
+      "variable": "$name",
+      "dialog_node": "slot_65_1587624295329",
+      "previous_sibling": "node_11_1587993284671"
+    },
+    {
       "type": "response_condition",
       "output": {
         "text": {
@@ -4526,11 +4642,21 @@
       "previous_sibling": "slot_77_1587624295329"
     },
     {
-      "type": "slot",
-      "output": {},
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
       "parent": "node_64_1587624295322",
-      "variable": "$name",
-      "dialog_node": "slot_65_1587624295329",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_11_1587993284671",
       "previous_sibling": "node_4_1587740945404"
     },
     {
@@ -5371,11 +5497,21 @@
       "previous_sibling": "slot_12_1587894812219"
     },
     {
-      "type": "slot",
-      "output": {},
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
       "parent": "node_10_1587894812214",
-      "variable": "$name",
-      "dialog_node": "slot_12_1587894812219",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_1_1587992230778",
       "previous_sibling": "node_11_1587894812219"
     },
     {
@@ -5409,6 +5545,14 @@
       "conditions": "anything_else",
       "dialog_node": "response_32_1587894812219",
       "previous_sibling": "response_31_1587894812219"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1587894812214",
+      "variable": "$name",
+      "dialog_node": "slot_12_1587894812219",
+      "previous_sibling": "node_1_1587992230778"
     },
     {
       "type": "event_handler",
@@ -5559,11 +5703,21 @@
       "previous_sibling": "slot_50_1587624256168"
     },
     {
-      "type": "slot",
-      "output": {},
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
       "parent": "node_43_1587624256160",
-      "variable": "$name",
-      "dialog_node": "slot_44_1587624256168",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_10_1587993094704",
       "previous_sibling": "node_3_1587740925322"
     },
     {
@@ -5593,6 +5747,14 @@
       "variable": "$location",
       "dialog_node": "slot_50_1587624256168",
       "previous_sibling": "slot_47_1587624256168"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_43_1587624256160",
+      "variable": "$name",
+      "dialog_node": "slot_44_1587624256168",
+      "previous_sibling": "node_10_1587993094704"
     },
     {
       "type": "slot",
@@ -5658,6 +5820,24 @@
       "parent": "node_22_1587624217906",
       "variable": "$name",
       "dialog_node": "slot_23_1587624217914",
+      "previous_sibling": "node_9_1587993065728"
+    },
+    {
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
+      "parent": "node_22_1587624217906",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_9_1587993065728",
       "previous_sibling": "node_2_1587740908258"
     },
     {
@@ -5930,6 +6110,14 @@
       "type": "slot",
       "output": {},
       "parent": "node_97_1587551749752",
+      "variable": "$name",
+      "dialog_node": "slot_98_1587551749760",
+      "previous_sibling": "node_7_1587992997553"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_97_1587551749752",
       "variable": "$description",
       "dialog_node": "slot_2_1587554462827",
       "previous_sibling": "slot_1_1587552108633"
@@ -5942,11 +6130,21 @@
       "previous_sibling": "slot_98_1587551749760"
     },
     {
-      "type": "slot",
-      "output": {},
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
       "parent": "node_97_1587551749752",
-      "variable": "$name",
-      "dialog_node": "slot_98_1587551749760",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_7_1587992997553",
       "previous_sibling": "node_9_1587738648169"
     },
     {
@@ -6247,6 +6445,14 @@
       "type": "slot",
       "output": {},
       "parent": "node_54_1587896591693",
+      "variable": "$name",
+      "dialog_node": "slot_56_1587896591700",
+      "previous_sibling": "node_2_1587992660276"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_54_1587896591693",
       "variable": "$description",
       "dialog_node": "slot_68_1587896591701",
       "previous_sibling": "slot_65_1587896591701"
@@ -6301,11 +6507,21 @@
       "previous_sibling": "slot_68_1587896591701"
     },
     {
-      "type": "slot",
-      "output": {},
+      "type": "standard",
+      "title": "#successful_result",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('webhook_result_1') ?> <? context.remove('name') ?>"
+      },
       "parent": "node_54_1587896591693",
-      "variable": "$name",
-      "dialog_node": "slot_56_1587896591700",
+      "conditions": "$webhook_result_1 && $name",
+      "dialog_node": "node_2_1587992660276",
       "previous_sibling": "node_55_1587896591700"
     },
     {
@@ -6776,7 +6992,7 @@
                 "text": "Hi, How can I assist you?"
               },
               {
-                "text": "Hey"
+                "text": "Hello , Hope you are well and safe. I am a community hub virtual agent. I can help answer your questions regarding necessary supplies and demands in your community. How can I help you?"
               }
             ],
             "response_type": "text",
