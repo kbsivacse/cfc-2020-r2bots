@@ -1,11 +1,11 @@
 # Community Hub – A collaboration channel 
-Cognizant Resilinece & Reliability (R2) Engineering ™ team's submission for IBM Call for Code (CFC 2020) Hackathon.
+Cognizant Resilience & Reliability (R2) Engineering ™ team's submission for IBM Call for Code (CFC 2020) Hackathon.
 
 ## Overview
 Communities need to cooperate among themselves to solve their needs in times of crisis, whether it be to advertise where supplies are held, offer assistance for collections, or other local services like volunteer deliveries. Many of the nations in the world need to lockdown their cities for prolonged duration to control the COVID-19 spread. People in the respective cities and communities run out of essential food, household and other supplies very quick. Their essential needs has to be full filled in secured manner with social distancing. 
 
-This mobile application is for the people in need to find nearby supplies for their essential demands during crisis situations. It also provide a channel to offer voluntary services, donations to the needed communities. By using this application, communityies will be able to view,
-1. Top demand and supplies in their localties
+This mobile application is for the people in need to find nearby supplies for their essential demands during crisis situations. It also provide a channel to offer voluntary services, donations to the needed communities. By using this application, communities will be able to view,
+1. Top demand and supplies in their localities
 2. Lookup the supplies for their demands using chatbot 
 3. Facility to post the vegetable stock by farmers/producers, voluntary service providers, locality needs of community people to see and respond
 
@@ -45,7 +45,7 @@ Virtual assistant developed using IBM Watson Assistant integrates with APIs to p
 Virtual assistant (standalone) for this application can be accessed [here](https://integrations.eu-gb.assistant.watson.cloud.ibm.com/web/public/e8da9e06-9785-4149-9ea2-9b19e908172b).
 
 ## Solution Roadmap
-The basic featured and functionalties of the application is extended from IBM's CFC 2020 hackathon statrup kit. The chat-bot has been trained to respond dynamically based on user need and provide real-time accuracy in the response. It also helps to create demands or supplies for a brand new user by asking relevant questions. The below are some of the additional features that can be added to make this more relevant and better as a platform.
+The basic features and functionalties of the application is extended from IBM's CFC 2020 hackathon statrup kit. The chat-bot has been trained to respond dynamically based on user need and provide real-time accuracy in the response. It also helps to create demands or supplies for a brand new user by asking relevant questions. The below are some of the additional features that can be added to make this more relevant and better as a platform.
 
 1. Search result based on distance using map APIs
 2. Retail implementation to connect demand vs supplier
