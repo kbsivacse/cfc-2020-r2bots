@@ -7,6 +7,7 @@ Cognizant Resilience & Reliability (R2) Engineering ™ team's submission for IB
 - [Logical Flow](#Logical-Flow)
 - [IBM Cloud Services](#IBM-Cloud-Services)
 - [Virtual Assistant](#Virtual-Assistant)
+- [Demo](#Demo)
 - [Solution Roadmap](#Solution-Roadmap)
 - [Authors](#Authors)
 - [References](#References)
@@ -55,6 +56,10 @@ Virtual assistant developed using IBM Watson Assistant integrates with APIs to p
 3. Create a new demand/supply/donation
 
 Virtual assistant (standalone) for this application can be accessed [here](https://integrations.eu-gb.assistant.watson.cloud.ibm.com/web/public/e8da9e06-9785-4149-9ea2-9b19e908172b).
+
+## Demo
+[![Watch the video]
+
 
 ## Solution Roadmap
 The basic features and functionalties of the application is extended from IBM's CFC 2020 hackathon statrup kit. The chat-bot has been trained to respond dynamically based on user need and provide real-time accuracy in the response. It also helps to create demands or supplies for a brand new user by asking relevant questions. The below are some of the additional features that can be added to make this more relevant and better as a platform.
