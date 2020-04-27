@@ -53,3 +53,10 @@ The basic featured and functionalties of the application is extended from IBM's 
 4. Alerts via push notification or preferred communication channel
 5. Chat with supplier or requester (one-to-one)
 6. Voice enabled search
+
+## References
+1. Code setup and deployment [guide](https://developer.ibm.com/tutorials/create-a-mobile-app-to-facilitate-community-collaboration/)
+2. IBM Starter kit [repository](https://github.com/Call-for-Code/Solution-Starter-Kit-Cooperation-2020)
+
+## License
+This solution is made available under the Apache 2 License.
