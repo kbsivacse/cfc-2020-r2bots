@@ -3,11 +3,12 @@ Cognizant Resilience & Reliability (R2) Engineering ™ team's submission for IB
 
 ## Contents
 - [Overview](#overview)
-- [Technology Stack](#TechnologyStack)
-- [Logical Flow](#LogicalFlow)
-- [IBM Cloud Services](#IBMCloudServices)
-- [Virtual Assistant](#VirtualAssistant)
-- [Solution Roadmap](#SolutionRoadmap)
+- [Technology Stack](#Technology%20Stack)
+- [Logical Flow](#Logical%20Flow)
+- [IBM Cloud Services](#IBM%20Cloud%20Services)
+- [Virtual Assistant](#Virtual%20Assistant)
+- [Solution Roadmap](#Solution%20Roadmap)
+- [Authors](#Authors)
 - [References](#References)
 - [License](#License)
 
@@ -64,6 +65,13 @@ The basic features and functionalties of the application is extended from IBM's 
 4. Alerts via push notification or preferred communication channel
 5. Chat with supplier or requester (one-to-one)
 6. Voice enabled search
+
+## Authors
+1. M. Chandrasekar
+2. Srinath Boorla
+3. Umamaheshwar Yallapanthul
+4. Saradhi Nallani Chakravarthy
+5. Sivasubramanian Bagavthiappan
 
 ## References
 1. Code setup and deployment [guide](https://developer.ibm.com/tutorials/create-a-mobile-app-to-facilitate-community-collaboration/)
