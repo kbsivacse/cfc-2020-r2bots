@@ -33,7 +33,7 @@ This solution has a chat interface built using IBM Watson Assistant, data storag
 IBM Cloud services provide an easy way of implementing the solution in short span of time using,
 1. Application is developed using React Native for UI, Node.js for API layer with IBM Cloudant No-SQL database at the backend levaraging IBM's statrtup kit for the hackathon
 2. Application is hosted as Cloud Foundary Services on IBM cloud
-3. IBM Watson Assistan for Chatbot integration to post the demand and get nearby supplies with contact details as response. Chatbot also helps to add supplies and dontations by invoking backend Node.js API hosted
+3. IBM Watson Assistant for Chatbot integration to post the demand and get nearby supplies with contact details as response. Chatbot also helps to add supplies and dontations by invoking backend Node.js API hosted
 
 ## Virtual Assistant
 Virtual assistant developed using IBM Watson Assistant integrates with APIs to provide below support by using simple chat,
