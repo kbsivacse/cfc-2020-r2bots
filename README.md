@@ -3,11 +3,11 @@ Cognizant Resilience & Reliability (R2) Engineering ™ team's submission for IB
 
 ## Contents
 - [Overview](#overview)
-- [Technology Stack](#Technology Stack)
-- [Logical Flow](#Logical Flow)
-- [IBM Cloud Services](#IBM Cloud Services)
-- [Virtual Assistant](#Virtual Assistant)
-- [Solution Roadmap](#Solution Roadmap)
+- [Technology Stack](#TechnologyStack)
+- [Logical Flow](#LogicalFlow)
+- [IBM Cloud Services](#IBMCloudServices)
+- [Virtual Assistant](#VirtualAssistant)
+- [Solution Roadmap](#SolutionRoadmap)
 - [References](#References)
 - [License](#License)
 
