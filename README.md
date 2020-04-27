@@ -42,7 +42,7 @@ Virtual assistant developed using IBM Watson Assistant integrates with APIs to p
 2. Search for supplies available for specific product in need in sepecific locality
 3. Create a new demand/supply/donation
 
-Virtual assistant (standalone) for this application can be accessed [here] (https://integrations.eu-gb.assistant.watson.cloud.ibm.com/web/public/e8da9e06-9785-4149-9ea2-9b19e908172b)
+Virtual assistant (standalone) for this application can be accessed [here](https://integrations.eu-gb.assistant.watson.cloud.ibm.com/web/public/e8da9e06-9785-4149-9ea2-9b19e908172b)
 
 ## Solution Roadmap
 The basic featured and functionalties of the application is extended from IBM's CFC 2020 hackathon statrup kit. The chat-bot has been trained to respond dynamically based on user need and provide real-time accuracy in the response. It also helps to create demands or supplies for a brand new user by asking relevant questions. The below are some of the additional features that can be added to make this more relevant and better as a platform.
