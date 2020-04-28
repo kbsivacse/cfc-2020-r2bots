@@ -58,7 +58,7 @@ Virtual assistant developed using IBM Watson Assistant integrates with APIs to p
 Virtual assistant (standalone) for this application can be accessed [here](https://integrations.eu-gb.assistant.watson.cloud.ibm.com/web/public/e8da9e06-9785-4149-9ea2-9b19e908172b).
 
 ## 
-[![Community Hub Demo](images/logo.png)](https://www.youtube.com/watch?v=oxmt_245iVU)
+[![Community Hub Demo](https://img.youtube.com/vi/oxmt_245iVU/0.jpg)](https://www.youtube.com/watch?v=oxmt_245iVU)
 
 
 ## Solution Roadmap
